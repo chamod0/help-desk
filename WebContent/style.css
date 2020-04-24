@@ -1,0 +1,138 @@
+@charset "ISO-8859-1";
+
+/*body*/
+body {
+ 	background-image: url("../img/bg.jpg");
+ 	background-size: cover;
+}
+
+
+/*navbar*/
+
+ul {
+  font-size:20px;
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CCD1D1;
+  opacity:0.8;
+ 
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color:white;
+  background-color: #111;
+}
+
+.active:hover {
+  background-color: red;
+  color:white;
+}
+
+.active {
+  background-color: #4CAF50;
+  color:white;
+}
+/* box */
+div {
+  border: 5px solid black;
+  padding: 0;
+  margin: 100px 300px ;
+  opacity:0.8;
+  overflow: hidden;
+  background-color: #CCD1D1;
+  font-size:20px;
+  list-style-type: none;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid #646666;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.edit {background-color: #4CAF50;} /* Green */
+.edit:hover {background-color: #46a049;}
+
+
+/*form*/
+
+input[type=text], select {
+  width: 98%;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password]{
+  padding: 12px 20px;
+  margin: 8px 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;	
+}
+input[type=date]{
+  padding: 12px 20px;
+  margin: 8px 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;	
+}
+
+input[type=button] {
+  padding: 12px 15px;
+  border: 1px solid #646666;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid #646666;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+input[type=reset] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid #646666;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: blue;
+}
+input[type=reset]:hover {
+  background-color: yellow;
+}
+
+

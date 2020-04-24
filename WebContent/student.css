@@ -1,0 +1,174 @@
+@charset "ISO-8859-1";
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], input[type=submit],select {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #000000;
+   color:#ffffff;
+     border-radius: 25px;
+   
+}
+
+
+input[type=text]:focus, input[type=submit],select:focus {
+  background-color: #000000;
+  outline: none;
+  color:#ffffff;
+}
+.download{
+	
+	background-color:#000000;
+	color:White;
+	opacity:1;
+	width:100px;
+	hight:10px ;
+	border: 4px;
+	box-shadow:0px 0px 10px #ffffff;
+}
+
+button,input[type=submit] {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 14px 20px;
+  margin: 9px;
+ border: 1px;
+ box-shadow:0px 0px 40px #a1a1a1;
+  cursor: pointer;
+  opacity: 1;
+  text-size:50px;
+  border-radius: 25px;
+  width:100%;
+  
+}
+input[type=submit]:hover {
+	color:black;
+  background-color:#00d535;
+  box-shadow:6px 5px 6px #ffffff;
+}
+
+input[type=file] {
+  background-color:  #000000 ;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity:1;
+}
+
+button:hover {
+  color:#ffffff;
+  background-color:grey;
+box-shadow:2px 4px 10px #ffffff;
+
+  
+
+}
+
+
+
+.cancelbtn, .ok {
+  float: left;
+  width: 40%;
+}
+
+
+.container {
+	
+  width: 50%;
+  padding: 16px;
+
+}
+
+
+.modal {
+  display: none; 
+  position: fixed; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: #ff0080;
+  padding-top: 50px;
+}
+
+
+.modal-content {
+	z-index:1;
+	color:#ffffff;
+	 background-color: #000000;
+  	opacity:0.8;
+  	box-shadow:0px 0px 60px grey;
+  	margin: 2% auto ; 
+ 	 border: 0px solid #888;
+  border-radius: 25px;
+  width: 50%; 
+  
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #e10022;
+  opacity:1;
+}
+
+.close:hover,
+.close:focus {
+  color: #c41515;
+  cursor: pointer;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.modal-content{
+	
+	width:50%;
+}
+
+.qizLable{
+	 
+	 
+	
+	background-color: #474e5d;
+	color:#ffffff;
+	width:85%;
+	height:200PX;
+	border:1px solid black;
+	margin: 70px;
+	background-color: #000000;
+  	opacity:0.6;
+  	box-shadow:6px 5px 6px #707070;
+  	  border-radius:15px;
+	
+}/* 
+input[type=button]{
+	background-color:#000000;
+	color:White;
+	opacity:1;
+	width:200px;
+	hight:20px ;
+	border: 4px;
+	border-radius: 25px;
+	
+}
+*/
+
+

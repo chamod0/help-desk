@@ -1,0 +1,133 @@
+@charset "ISO-8859-1";
+
+/*navbar*/
+body, html {
+	margin: 0;
+	pading: 0;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+ul {
+  font-size:20px;
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CCD1D1;
+  opacity:0.8;
+ 
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color:white;
+  background-color: #111;
+}
+
+.active:hover {
+  background-color: red;
+  color:white;
+}
+
+.active {
+  background-color: #4CAF50;
+  color:white;
+}
+.bg {
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: fixed;
+}
+table {
+	color: #ffffff;
+	width: 90%;
+		
+	margin: 65px;
+     background-color:#000000;
+	opacity: 0.7;
+	box-shadow: 0px 0px 40px #737373;
+	 border: none;
+	  border-radius: 25px;
+	 
+}
+
+tr.qiz  {
+	
+	color : #ffffff;
+	font-size: 15px;
+	bold:2;
+	  background-color: #1F2833;
+	opacity: 0.9;
+	border: 1px;
+	
+		
+}
+
+tr.qiz:hover {
+	background-color: #66FCF1;
+	color:#000000;
+	box-shadow: 6px 5px 6px #00ff00;
+}
+
+.std {
+	position: absolute;
+	top: 14.5%;
+	right: 5%;
+}
+
+.topic {
+	font-size: 90px;
+	font-family: Aclonica;
+	color: white
+}
+
+.calander {
+	margin: 25px;
+}
+
+
+td{
+	height: 40PX;
+	width: 100px;
+	
+
+	
+	
+}
+input[type=text].search {
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background-color: #808080;
+	width: 150px;
+
+	color: white;
+	height: 30PX;
+
+}
+
+
+.qizcoloum{
+	background-color:#ff8000;
+}
+.answercoloum{
+	background-color:#008040;
+}
+
+
+
